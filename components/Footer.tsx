@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
-                <img src="https://i.postimg.cc/vmC5bKr8/3.png" alt="شعار الفارس للمدفوعات" className="h-10 w-auto" />
+                <img src="/logo.png" alt="شعار الفارس للمدفوعات" className="h-10 w-auto" />
                 <h2 className="text-xl font-bold mr-3">الفارس للمدفوعات</h2>
             </div>
             <p className="text-gray-600">

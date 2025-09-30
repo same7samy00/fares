@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           {/* Text Content */}
           <div className="md:w-1/2 text-center md:text-right mb-10 md:mb-0">
-            <img src="https://i.postimg.cc/vmC5bKr8/3.png" alt="شعار الفارس للمدفوعات" className="h-20 w-auto mx-auto md:mx-0 mb-4" />
+            <img src="/logo.png" alt="شعار الفارس للمدفوعات" className="h-20 w-auto mx-auto md:mx-0 mb-4" />
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 bg-gradient-to-r from-[#006eff] to-blue-500 text-transparent bg-clip-text">
               الفارس للمدفوعات
             </h1>
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
           </div>
           {/* Image */}
           <div className="md:w-1/2 flex justify-center">
-            <img src="https://i.postimg.cc/fL6NHcyM/image.png" alt="تطبيق الفارس للمدفوعات وماكينة الدفع" className="max-w-full h-auto rounded-lg" />
+            <img src="/hero.png" alt="تطبيق الفارس للمدفوعات وماكينة الدفع" className="max-w-full h-auto rounded-lg" />
           </div>
         </div>
       </div>

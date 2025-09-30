@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 const Machine: React.FC = () => {
   const images = [
-    'https://i.postimg.cc/HL0qHq67/Generated-Image-September-28-2025-1-32-PM.png',
-    'https://i.postimg.cc/g0RZ0Dhr/1.webp',
-    'https://i.postimg.cc/s2Sh2cWY/OIP.webp',
-    'https://i.postimg.cc/wBJmBVNQ/OIP-1.webp',
-    'https://i.postimg.cc/DzsXzgGs/OIP-2.webp',
+    '/machine-1.png',
+    '/machine-2.webp',
+    '/machine-3.webp',
+    '/machine-4.webp',
+    '/machine-5.webp',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
